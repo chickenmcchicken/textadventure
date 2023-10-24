@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title></title>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<script src="jquery.min.js"></script>
+		<script src="story.js" charset="UTF-8"></script>
+		
+		
+		<script>
+			jQuery(function($){
+				$('#squiffy').squiffy();
+				var restart = function () {
+					$('#squiffy').squiffy('restart');
+				};
+				$('#restart').click(restart);
+				$('#restart').keypress(function (e) {
+					if (e.which !== 13) return;
+					restart();
+				});
+			});
+		</script>
+		<link rel="stylesheet" href="style.css"/>
+		<hr color="black" width="auto">
+		<h1>Magic Chalk</h1>
+		<hr color="black" width="auto">
+		
+	</head>
+	<body>
+		<div id="squiffy-container">
+			<div id="squiffy-header">
+				<a class="squiffy-header-link" id="restart" tabindex="0">Restart</a>
+			</div>
+			<div id="squiffy">
+			</div>
+		</div>
+		<div class="container" id="options">
+			<div class="vertical-line">
+				
+
+			
+			<div id="choices">
+				<div class="v1"></div>
+			<div style="display:table-cell ; width: auto;"></div>
+				<button class="btn"  id="op1" name="op1"> Option 1 </button>
+				<button class="btn"  id="op2" name="op2"> Option 2 </button>
+				<button class="btn"  id="op3" name="op3"> Option 3 </button>
+				<button class="btn"  id="op4" name="op4"> Option 4 </button>
+
+				
+			</div>
+		</div>
+		<div id="para">
+			<h1 class="h1" id="h1">Argon finds the chalk</h1>
+			<h2 class="h2" id="h2">1)Toss it</h2>
+			<h2 class="h3" id="h3">2)Sells it</h2>
+			<h2 class="h4" id="h4">3)See what it does</h2>
+			<p id="p2"></p>
+			<div id="img"></div>
+		</div>
+			<hr class="hr1">
+			<hr class="hr2">
+			</div>
+		</div>
+		<script src="myJSstory.js" charset="UTF-8"></script>
+		
+	</body>
+	<p1>
+		
+	</p1>
+</html>

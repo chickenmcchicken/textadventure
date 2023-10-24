@@ -1,0 +1,180 @@
+a.squiffy-link
+{
+    text-decoration: underline;
+    color: Blue;
+    cursor: pointer;
+}
+a.squiffy-link.disabled
+{
+    text-decoration: inherit;
+    color: inherit !important;
+    cursor: inherit;
+}
+a.squiffy-header-link
+{
+    text-decoration: underline;
+    color: Blue;
+    cursor: pointer;
+}
+div#squiffy-container
+{
+    max-width:700px;
+    margin-left: 1000px;
+    margin-right: auto;
+    font-family: Georgia, serif;
+}
+div#squiffy-header
+{
+    font-size: 14px;
+    text-align: right;
+}
+div#squiffy
+{
+    font-size: 18px;
+}
+hr {
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    margin-top: 16px; margin-bottom: 16px;
+}
+
+
+
+
+
+
+div#choices
+{
+    display: flex;
+    margin-left: 1160px;
+    flex-direction: column;
+ 
+}
+div.vertical-line
+{   
+    
+    border: 5px black inset;
+    float: left;
+    position: absolute;
+    height: 100%;
+    width: 0%;
+
+
+
+}
+div.v1
+{
+    border-left: 5px black inset;
+    height: 100%;
+    width: 0%;
+    position: absolute;
+    text-align: center;
+
+
+}
+
+button#op1
+{
+    visibility:visible;
+    background-color: aqua;
+    border-color: black;
+    text-decoration: wavy;
+    width: 100px;
+    height: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+button#op1
+{
+    visibility:visible;
+    background-color: aqua;
+    border-color: black;
+    text-decoration: wavy;
+    width: 100px;
+    height: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+button#op2
+{
+    visibility:visible;  
+    background-color: aqua;
+    border-color: black;
+    text-decoration: wavy;
+    width: 100px;
+    height: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+button#op3
+{
+    visibility:visible;   
+    background-color: aqua;
+    font-size: large;
+    border-color: black;
+    text-decoration: wavy;
+    width: 100px;
+    height: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+button#op4
+{
+    visibility:hidden;
+    background-color: aqua;
+    border-color: black;
+    text-decoration: wavy;
+    width: 100px;
+    height: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.h1{
+    text-align: center;
+    margin-right: 400px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.h2
+{
+    text-align: center;
+    margin-right: 400px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.h3
+{
+    text-align: center;
+    margin-right: 400px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.h4
+{
+    text-align: center;
+    margin-right: 400px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#p2
+{
+    margin-right: 100px;
+    text-align: center;
+    margin-bottom: 15em;
+    margin-right: 400px;
+    font-size: large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+hr.hr1
+{
+    
+    display: 0;
+    border-top: 1em 0;
+    margin-top:30em 0;
+
+    border-bottom: 10px black inset;
+    width: auto;
+
+
+
+}
+
+hr.hr2
+{
+    margin-bottom: 5em 0;
+    border-bottom: 10px black inset;
+    width: auto;
+}
